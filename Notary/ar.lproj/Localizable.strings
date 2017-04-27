@@ -1,0 +1,132 @@
+/* No Localized Strings */
+
+"Mobile Notary" = "كتابة العدل المتنقلة";
+
+"A free service of the Ministry of Justice, to provide Notary services for the Elderly people and in-patients." = "خدمة مجانية من وزارة العدل، لتقديم الخدمات العدلية لكبار السن، والمرضى في المستشفيات في مقر إقامتهم";
+
+"Representative Sign-in" = "دخول ممثل الخدمة";
+
+"Beneficiaries Sign-in" = "دخول المستفيدين";
+
+"About App" = "عن التطبيق";
+
+"about_msg" = "كتابة العدل المتنقلة، هي خدمة مجانية من وزارة العدل، لخدمة غير القادرين على الحضور إلى مقرات كتابات العدل، وإنهاء إجراءاتهم. يخدم التطبيق أيضًا، ممثلي شؤون المرضى ودور الملاحظة، لتقديم الطلبات نيابة عن المستفيدين. لمعلومات أكثر حول خدمات وزارة العدل، تفضل بزيارة www.moj.gov.sa الموقع الإلكتروني.  تم تطوير هذا التطبيق بإشراف الإدارة العامة لتقنية المعلومات بوزارة العدل";
+
+
+"This screen specific to the service accredited representatives of the Ministry of Justice with the official authorities, such as hospitals and the relevant authorities. To record the official authorities, continue with the unit mobile services mpn@moj.gov.sa" = "هذه الشاشة تخص ممثلي الخدمة المعتمدين من وزارة العدل لدى الجهات الرسمية كالمستشفيات والجهات ذات العلاقة. لتسجيل الجهات الرسمية ، تواصل مع وحدة الخدمات المتنقلة mpn@moj.gov.sa";
+
+"National ID" = "رقم الهوية";
+
+"Mobile Number" = "الجوال";
+
+"Sign-in" = "دخول";
+
+"In case you do not receive the temporary code message on your mobile phone for more than two minutes, then come back and try again. In case of recurrence of the problem, continue with the unit mobile services mpn@moj.gov.sa" = "في حال لم تصلك رسالة الرمز المؤقت على هاتفك الجوال لأكثر من دقيقتين، قم بالعودة ثم حاول مرة أخرى. في حال تكرار المشكلة، تواصل مع وحدة الخدمات المتنقلة mpn@moj.gov.sa";
+
+"Enter PIN" = "كلمة المرور المؤقتة";
+
+"Browse Appointments" = "استعراض المواعيد";
+
+"UpComing" = "القادمة";
+
+"Previous" = "السابقة";
+
+"Appointments Details" = "تفاصيل موعد";
+
+"Date & Time" = "الوقت والتاريخ";
+
+"Number of Beneficiaries" = "عدد المستفيدين";
+
+"Select Date" = "اختر التاريخ";
+
+"Select Time" = "اختر الوقت";
+
+"Submit" = "تقديم الطلب";
+
+"Location" = "حدد المكان";
+
+"Next" = "التالي";
+
+"Cancel" = "الغاء";
+
+"Submitted Successfully" = "تم استلام طلبك بنجاح";
+
+"You will recieve a confirmation on" = "ستصلك رسالة تأكيدية على هاتفك";
+
+"You can browse your appointments from Home Page" = "بإمكانك استعراض مواعيدك من الصفحة الرئيسة";
+
+"Home Page" = "عودة للصفحة الرئيسة";
+
+
+"Booking Appointment" = "إضافة موعد جديد";
+
+
+
+"Sorry , something wrong happened. Please go to previous page and make sure of your information" = "عفوًا لقد حدث خطأ ما ، إرجع للصفحة السابقة وتأكد من اختياراتك.";
+
+"Previous Page" = "عودة للصفحة السابقة";
+
+"Birth Date" = "تاريخ الميلاد";
+
+"Show Appointments" = "عرض المواعيد";
+
+"Cancel Appointment" = "إلغاء الموعد";
+
+"Service" = "الخدمة";
+
+"Your Location" = "حدد موقعك";
+
+"Hijri" = "هجري";
+
+"Gorgian" = "ميلادي";
+
+"Application will terminate and change its language" = "سيتم اغلاق التطبيق وتغيير اللغة الى الانجليزية";
+
+"Ok" = "موافق";
+
+"Confirmation" = "تأكيد";
+
+"Select" = "اختر";
+
+"Back" = "عودة";
+
+"All Field Required" = "جميع البيانات اجبارية";
+
+"ID Number invalid" = "رقم الهوية غير صحيح";
+
+"Operation Has Faild" = "فشلت العملية";
+
+"Mobile Number invalid" = "رقم الجوال غير صحيح";
+
+"No Data Found" = "لا توجد مواعيد";
+
+"ID Number Must be 10 digits" = "رقم الهوية مكون من ١٠ خانات";
+
+"05xxxxxxxx" = "٠٥xxxxxxxx";
+
+"Warning" = "تحذير";
+
+"Do you want to cancel this operation ?" = "هل تريد إلغاء هذه العملية ؟";
+
+"Yes" = "نعم";
+
+"No" = "لا";
+
+"Cancle Confirmed" = "تم الالغاء";
+
+"Address Here" = "العنوان هنا";
+
+"Select Service" = "اختر الخدمة";
+
+"api_response_result_code_0" = "خطأ عام";
+"api_response_result_code_1" = "";
+"api_response_result_code_2" = "عفوا ، الخدمة مقدمة لكبار السن";
+"api_response_result_code_3" = "عفوًا لم يتم خدمة هذه المنطقة حتى الآن";
+"api_response_result_code_4" = "يوجد مشكلة في البيانات المرسلة";
+"api_response_result_code_5" = "يوجد موعد محدد مستقبلا لنفس الشخص";
+"api_response_result_code_6" = "وقت الموعد غير متوفر حاليا";
+"api_response_result_code_7" = "لا يمكنك تحديد وقت في الماضي";
+"api_response_result_code_8" = "مشكلة في الشبكة";
+"api_response_result_code_9" = "بيانات تسجيل الدخول غير صحيحة ،يرجى التأكد منها";
+
+"No Available Dates" = "لا يوجد اوقات متاحة للخدمة";

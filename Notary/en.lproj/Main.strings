@@ -1,0 +1,294 @@
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "0Fq-fl-oVp"; */
+"0Fq-fl-oVp.normalTitle" = "Arabic";
+
+/* Class = "UILabel"; text = "Number of Beneficiaries"; ObjectID = "0Ub-8e-BRa"; */
+"0Ub-8e-BRa.text" = "Number of Beneficiaries";
+
+/* Class = "UILabel"; text = "Enter PIN"; ObjectID = "3pU-kU-Sbv"; */
+"3pU-kU-Sbv.text" = "Enter PIN";
+
+/* Class = "UILabel"; text = "Representative Sign-in"; ObjectID = "5Hc-om-UQr"; */
+"5Hc-om-UQr.text" = "Representative Sign-in";
+
+/* Class = "UILabel"; text = "Representative Sign-in"; ObjectID = "5Ld-rY-2XL"; */
+"5Ld-rY-2XL.text" = "Representative Sign-in";
+
+/* Class = "UIButton"; normalTitle = "UpComing"; ObjectID = "5d1-HP-GjJ"; */
+"5d1-HP-GjJ.normalTitle" = "UpComing";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "6Vi-jz-XOw"; */
+"6Vi-jz-XOw.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Appointments Details"; ObjectID = "7PN-jA-Ht4"; */
+"7PN-jA-Ht4.text" = "Appointments Details";
+
+/* Class = "UIButton"; normalTitle = "Beneficiaries Sign-in"; ObjectID = "7gb-jI-0AP"; */
+"7gb-jI-0AP.normalTitle" = "Beneficiaries Sign-in";
+
+/* Class = "UISegmentedControl"; 7xU-0w-7Ut.segmentTitles[0] = "ميلادي"; ObjectID = "7xU-0w-7Ut"; */
+"7xU-0w-7Ut.segmentTitles[0]" = "ميلادي";
+
+/* Class = "UISegmentedControl"; 7xU-0w-7Ut.segmentTitles[1] = "هجري"; ObjectID = "7xU-0w-7Ut"; */
+"7xU-0w-7Ut.segmentTitles[1]" = "هجري";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "89z-vp-wzb"; */
+"89z-vp-wzb.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "8zw-QN-dhJ"; */
+"8zw-QN-dhJ.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Select Date"; ObjectID = "95w-vN-t7D"; */
+"95w-vN-t7D.text" = "Select Date";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "9CN-2k-mfc"; */
+"9CN-2k-mfc.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "You can browse your appointments from Home Page"; ObjectID = "A2y-Dy-5yh"; */
+"A2y-Dy-5yh.text" = "You can browse your appointments from Home Page";
+
+/* Class = "UILabel"; text = "National ID"; ObjectID = "A9I-C8-edS"; */
+"A9I-C8-edS.text" = "National ID";
+
+/* Class = "UILabel"; text = "Mobile Notary"; ObjectID = "ATX-su-oDw"; */
+"ATX-su-oDw.text" = "Mobile Notary";
+
+/* Class = "UILabel"; text = "This screen specific to the service accredited representatives of the Ministry of Justice with the official authorities, such as hospitals and the relevant authorities. To record the official authorities, continue with the unit mobile services mpn@moj.gov.sa"; ObjectID = "ArC-c3-jeH"; */
+"ArC-c3-jeH.text" = "This screen specific to the service accredited representatives of the Ministry of Justice with the official authorities, such as hospitals and the relevant authorities. To record the official authorities, continue with the unit mobile services mpn@moj.gov.sa";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "BMA-Cs-uzc"; */
+"BMA-Cs-uzc.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "٢٥٥"; ObjectID = "Cq8-ZE-fRo"; */
+"Cq8-ZE-fRo.text" = "٢٥٥";
+
+/* Class = "UILabel"; text = "Submitted Successfully"; ObjectID = "Dof-CF-9z7"; */
+"Dof-CF-9z7.text" = "Submitted Successfully";
+
+/* Class = "UILabel"; text = "المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤"; ObjectID = "Dwk-dX-2LN"; */
+"Dwk-dX-2LN.text" = "المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤";
+
+/* Class = "UIButton"; normalTitle = "Home Page"; ObjectID = "GW1-eJ-Wu3"; */
+"GW1-eJ-Wu3.normalTitle" = "Home Page";
+
+/* Class = "UIButton"; normalTitle = "Home Page"; ObjectID = "HFE-AT-tBk"; */
+"HFE-AT-tBk.normalTitle" = "Home Page";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "JuQ-zC-jhJ"; */
+"JuQ-zC-jhJ.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "LFj-0c-cIM"; */
+"LFj-0c-cIM.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "LaV-8A-Quc"; */
+"LaV-8A-Quc.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Sign-in"; ObjectID = "Lfs-yV-9NO"; */
+"Lfs-yV-9NO.normalTitle" = "Sign-in";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "MH9-Xl-Vvt"; */
+"MH9-Xl-Vvt.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Submitted Successfully"; ObjectID = "MQz-EW-83j"; */
+"MQz-EW-83j.text" = "Submitted Successfully";
+
+/* Class = "UIButton"; normalTitle = "Previous Page"; ObjectID = "McT-3J-xGu"; */
+"McT-3J-xGu.normalTitle" = "Previous Page";
+
+/* Class = "UIButton"; normalTitle = "Previous"; ObjectID = "MwV-k8-hb1"; */
+"MwV-k8-hb1.normalTitle" = "Previous";
+
+/* Class = "UILabel"; text = "Date & Time"; ObjectID = "NUX-4v-FV7"; */
+"NUX-4v-FV7.text" = "Date & Time";
+
+/* Class = "UITextField"; text = "565656"; ObjectID = "PcM-5D-hu7"; */
+"PcM-5D-hu7.text" = "565656";
+
+/* Class = "UILabel"; text = "Your Location"; ObjectID = "Q4u-zr-Dmb"; */
+"Q4u-zr-Dmb.text" = "Your Location";
+
+/* Class = "UIButton"; normalTitle = "UpComing"; ObjectID = "Q9F-IU-ib7"; */
+"Q9F-IU-ib7.normalTitle" = "UpComing";
+
+/* Class = "UILabel"; text = "Notary mobile, is a free service of the Ministry of Justice, to serve those unable to come to the headquarters of the writings of justice, and an end to their actions. The application also serves, representatives of patients Affairs and the role of observation, for submissions on behalf of the beneficiaries. For more information about the Department of Justice Services, visit the website www.moj.gov.sa"; ObjectID = "QCX-Pd-Syi"; */
+"QCX-Pd-Syi.text" = "Notary mobile, is a free service of the Ministry of Justice, to serve those unable to come to the headquarters of the writings of justice, and an end to their actions. The application also serves, representatives of patients Affairs and the role of observation, for submissions on behalf of the beneficiaries. For more information about the Department of Justice Services, visit the website www.moj.gov.sa";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "R1U-6T-aZ1"; */
+"R1U-6T-aZ1.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "SRN-6O-Ajc"; */
+"SRN-6O-Ajc.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "TM0-VL-D8X"; */
+"TM0-VL-D8X.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Home Page"; ObjectID = "TsC-Ku-nwl"; */
+"TsC-Ku-nwl.normalTitle" = "Home Page";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "U57-xf-Sjf"; */
+"U57-xf-Sjf.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Appointments Details"; ObjectID = "UOs-hs-cpO"; */
+"UOs-hs-cpO.text" = "Appointments Details";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "UdH-qB-V5G"; */
+"UdH-qB-V5G.text" = "Location";
+
+/* Class = "UISegmentedControl"; UeR-qu-SYA.segmentTitles[0] = "ميلادي"; ObjectID = "UeR-qu-SYA"; */
+"UeR-qu-SYA.segmentTitles[0]" = "ميلادي";
+
+/* Class = "UISegmentedControl"; UeR-qu-SYA.segmentTitles[1] = "هجري"; ObjectID = "UeR-qu-SYA"; */
+"UeR-qu-SYA.segmentTitles[1]" = "هجري";
+
+/* Class = "UILabel"; text = "٢٥٥"; ObjectID = "VnE-cJ-6cX"; */
+"VnE-cJ-6cX.text" = "٢٥٥";
+
+/* Class = "UILabel"; text = "Browse Appointments"; ObjectID = "Vpj-gi-jmJ"; */
+"Vpj-gi-jmJ.text" = "Browse Appointments";
+
+/* Class = "UILabel"; text = "Browse Appointments"; ObjectID = "X7n-EY-I8k"; */
+"X7n-EY-I8k.text" = "Browse Appointments";
+
+/* Class = "UISegmentedControl"; X8r-8I-eRO.segmentTitles[0] = "ميلادي"; ObjectID = "X8r-8I-eRO"; */
+"X8r-8I-eRO.segmentTitles[0]" = "ميلادي";
+
+/* Class = "UISegmentedControl"; X8r-8I-eRO.segmentTitles[1] = "هجري"; ObjectID = "X8r-8I-eRO"; */
+"X8r-8I-eRO.segmentTitles[1]" = "هجري";
+
+/* Class = "UILabel"; text = "١٨ جمادى الأول، ٩:٠٠ صباحًا "; ObjectID = "Zvr-br-Zlz"; */
+"Zvr-br-Zlz.text" = "١٨ جمادى الأول، ٩:٠٠ صباحًا ";
+
+/* Class = "UILabel"; text = "Birth Date"; ObjectID = "ag9-ey-eDW"; */
+"ag9-ey-eDW.text" = "Birth Date";
+
+/* Class = "UILabel"; text = "Sorry , something wrong happened. Please go to previous page and make sure of your information"; ObjectID = "aqK-Hs-Q94"; */
+"aqK-Hs-Q94.text" = "Sorry , something wrong happened. Please go to previous page and make sure of your information";
+
+/* Class = "UILabel"; text = "Select Date"; ObjectID = "bgZ-Za-0Y6"; */
+"bgZ-Za-0Y6.text" = "Select Date";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "bom-Vg-tr4"; */
+"bom-Vg-tr4.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "You will recieve a confirmation on"; ObjectID = "bvc-ud-XsJ"; */
+"bvc-ud-XsJ.text" = "You will recieve a confirmation on";
+
+/* Class = "UILabel"; text = "Birth Date"; ObjectID = "cCA-SV-rfA"; */
+"cCA-SV-rfA.text" = "Birth Date";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "cMq-8J-Kxl"; */
+"cMq-8J-Kxl.normalTitle" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "cTY-l0-4XH"; */
+"cTY-l0-4XH.normalTitle" = "Next";
+
+/* Class = "UITextField"; text = "2222"; ObjectID = "cUw-3r-Hua"; */
+"cUw-3r-Hua.text" = "2222";
+
+/* Class = "UILabel"; text = "National ID"; ObjectID = "cZL-tA-rNG"; */
+"cZL-tA-rNG.text" = "National ID";
+
+/* Class = "UILabel"; text = "You can browse your appointments from Home Page"; ObjectID = "clD-8C-UkD"; */
+"clD-8C-UkD.text" = "You can browse your appointments from Home Page";
+
+/* Class = "UILabel"; text = "National ID"; ObjectID = "dy4-MH-Meu"; */
+"dy4-MH-Meu.text" = "National ID";
+
+/* Class = "UIButton"; normalTitle = "About App"; ObjectID = "e4P-dM-stj"; */
+"e4P-dM-stj.normalTitle" = "About App";
+
+/* Class = "UIButton"; normalTitle = "Representative Sign-in"; ObjectID = "etN-fq-gXw"; */
+"etN-fq-gXw.normalTitle" = "Representative Sign-in";
+
+/* Class = "UILabel"; text = "Select Time"; ObjectID = "gje-U9-2PY"; */
+"gje-U9-2PY.text" = "Select Time";
+
+/* Class = "UILabel"; text = "You will recieve a confirmation on"; ObjectID = "hOv-9S-Oeu"; */
+"hOv-9S-Oeu.text" = "You will recieve a confirmation on";
+
+/* Class = "UILabel"; text = "Service"; ObjectID = "i7H-wq-EWK"; */
+"i7H-wq-EWK.text" = "Service";
+
+/* Class = "UIButton"; normalTitle = "Home Page"; ObjectID = "ino-q7-Gxa"; */
+"ino-q7-Gxa.normalTitle" = "Home Page";
+
+/* Class = "UILabel"; text = "About App"; ObjectID = "kTk-K2-aIx"; */
+"kTk-K2-aIx.text" = "About App";
+
+/* Class = "UILabel"; text = "١٩ جمادى الأول"; ObjectID = "kWH-SD-V2E"; */
+"kWH-SD-V2E.text" = "١٩ جمادى الأول";
+
+/* Class = "UIButton"; normalTitle = "Cancel Appointment"; ObjectID = "kh8-B6-YXA"; */
+"kh8-B6-YXA.normalTitle" = "Cancel Appointment";
+
+/* Class = "UILabel"; text = "A free service of the Ministry of Justice, to provide Notary services for the Elderly people and in-patients."; ObjectID = "kkp-D3-cap"; */
+"kkp-D3-cap.text" = "A free service of the Ministry of Justice, to provide Notary services for the Elderly people and in-patients.";
+
+/* Class = "UIButton"; normalTitle = "Sign-in"; ObjectID = "kvv-jk-zIF"; */
+"kvv-jk-zIF.normalTitle" = "Sign-in";
+
+/* Class = "UILabel"; text = "المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤"; ObjectID = "lJj-Kf-c6r"; */
+"lJj-Kf-c6r.text" = "المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤";
+
+/* Class = "UIButton"; normalTitle = "Previous"; ObjectID = "p9a-Wh-0R3"; */
+"p9a-Wh-0R3.normalTitle" = "Previous";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "pKU-iG-4Bz"; */
+"pKU-iG-4Bz.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Service"; ObjectID = "ptx-eA-cPg"; */
+"ptx-eA-cPg.text" = "Service";
+
+/* Class = "UIButton"; normalTitle = "Show Appointments"; ObjectID = "rGH-UK-pbe"; */
+"rGH-UK-pbe.normalTitle" = "Show Appointments";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "s4F-4W-Ecg"; */
+"s4F-4W-Ecg.text" = "Mobile Number";
+
+/* Class = "UILabel"; text = "١٩ جمادى الأول"; ObjectID = "tHb-KJ-Tdy"; */
+"tHb-KJ-Tdy.text" = "١٩ جمادى الأول";
+
+/* Class = "UISegmentedControl"; tdb-Jw-QoQ.segmentTitles[0] = "ميلادي"; ObjectID = "tdb-Jw-QoQ"; */
+"tdb-Jw-QoQ.segmentTitles[0]" = "ميلادي";
+
+/* Class = "UISegmentedControl"; tdb-Jw-QoQ.segmentTitles[1] = "هجري"; ObjectID = "tdb-Jw-QoQ"; */
+"tdb-Jw-QoQ.segmentTitles[1]" = "هجري";
+
+/* Class = "UILabel"; text = "١٨ جمادى الأول، ٩:٠٠ صباحًا "; ObjectID = "u72-KE-OEE"; */
+"u72-KE-OEE.text" = "١٨ جمادى الأول، ٩:٠٠ صباحًا ";
+
+/* Class = "UILabel"; text = "Sorry , something wrong happened. Please go to previous page and make sure of your information"; ObjectID = "u7F-GO-gqU"; */
+"u7F-GO-gqU.text" = "Sorry , something wrong happened. Please go to previous page and make sure of your information";
+
+/* Class = "UILabel"; text = "In case you do not receive the temporary code message on your mobile phone for more than two minutes, then come back and try again. In case of recurrence of the problem, continue with the unit mobile services mpn@moj.gov.sa"; ObjectID = "uDt-XB-C0l"; */
+"uDt-XB-C0l.text" = "In case you do not receive the temporary code message on your mobile phone for more than two minutes, then come back and try again. In case of recurrence of the problem, continue with the unit mobile services mpn@moj.gov.sa";
+
+/* Class = "UIButton"; normalTitle = "Cancel Appointment"; ObjectID = "w0b-fn-rV8"; */
+"w0b-fn-rV8.normalTitle" = "Cancel Appointment";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "w6g-1O-Qu2"; */
+"w6g-1O-Qu2.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "wVT-xv-OE8"; */
+"wVT-xv-OE8.text" = "Mobile Number";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "wcu-bA-VUw"; */
+"wcu-bA-VUw.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Select Time"; ObjectID = "wlt-AB-J68"; */
+"wlt-AB-J68.text" = "Select Time";
+
+/* Class = "UIButton"; normalTitle = "Previous Page"; ObjectID = "xGZ-he-19I"; */
+"xGZ-he-19I.normalTitle" = "Previous Page";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "xND-z1-1sk"; */
+"xND-z1-1sk.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "y8i-8x-1Yw"; */
+"y8i-8x-1Yw.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "ynU-j8-cE5"; */
+"ynU-j8-cE5.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "zSv-Pu-NiU"; */
+"zSv-Pu-NiU.text" = "Mobile Number";

@@ -1,0 +1,19 @@
+/* No Localized Strings */
+
+"Cancle Confirmed" = "تم الالغاء";
+"Address Here" = "العنوان هنا";
+"Select Service" = "اختر الخدمة";
+
+"api_response_result_code_0" = "A general error occured";
+"api_response_result_code_1" = "Operation completed successfully";
+"api_response_result_code_2" = "Sorry, Service is Provided to The Elderly";
+"api_response_result_code_3" = "The selected location is not within covered areas";
+"api_response_result_code_4" = "Values sent are not valid";
+"api_response_result_code_5" = "There is a future appointment for the same person";
+"api_response_result_code_6" = "Selected appointment time is not available at the moment";
+"api_response_result_code_7" = "Selected appointment time is in the past";
+"api_response_result_code_8" = "Login info and reference key is not available. Possible timeout has occured";
+"api_response_result_code_9" = "Login data is not correct";
+
+
+"about_msg" = "Mobile Public Notary is an initiative provided by the Ministry of Justice serving, free of charge, the elderly and people with special needs. It also serves registered organization representatives requesting on behalf of the final beneficiaries. For more information, please visit our website: www.moj.com.sa. The app has been developed under the supervision of IT Department, Ministry of Justice.";

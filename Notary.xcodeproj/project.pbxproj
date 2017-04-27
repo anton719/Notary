@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2816D461EAC9D0B1FEAD819E /* Pods_Notary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE465ACE0F9BD44B6B54048 /* Pods_Notary.framework */; };
+		840374131E7F0EFE00D08790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374121E7F0EFE00D08790 /* AppDelegate.swift */; };
+		840374181E7F0EFE00D08790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840374161E7F0EFE00D08790 /* Main.storyboard */; };
+		8403741B1E7F0EFE00D08790 /* Notary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840374191E7F0EFE00D08790 /* Notary.xcdatamodeld */; };
+		8403741D1E7F0EFE00D08790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8403741C1E7F0EFE00D08790 /* Assets.xcassets */; };
+		840374201E7F0EFE00D08790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8403741E1E7F0EFE00D08790 /* LaunchScreen.storyboard */; };
+		840374731E7F108000D08790 /* NLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403742B1E7F108000D08790 /* NLCommon.m */; };
+		840374741E7F108000D08790 /* UIButton+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403742D1E7F108000D08790 /* UIButton+Helper.m */; };
+		840374751E7F108000D08790 /* UITextField+editingRectForBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403742F1E7F108000D08790 /* UITextField+editingRectForBounds.m */; };
+		840374761E7F108000D08790 /* UITextField+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374311E7F108000D08790 /* UITextField+Helper.m */; };
+		840374771E7F108000D08790 /* UILabel+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374331E7F108000D08790 /* UILabel+Helper.m */; };
+		8403747E1E7F108000D08790 /* AIDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374511E7F108000D08790 /* AIDatePickerController.m */; };
+		8403747F1E7F108000D08790 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374541E7F108000D08790 /* NSDate+Helper.m */; };
+		840374801E7F108000D08790 /* NSDate+Helper.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 840374551E7F108000D08790 /* NSDate+Helper.podspec.json */; };
+		840374811E7F108000D08790 /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = 840374561E7F108000D08790 /* README.textile */; };
+		840374821E7F108000D08790 /* GMDraggableMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374591E7F108000D08790 /* GMDraggableMarkerManager.m */; };
+		840374831E7F108000D08790 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403745D1E7F108000D08790 /* SVIndefiniteAnimatedView.m */; };
+		840374841E7F108000D08790 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403745F1E7F108000D08790 /* SVProgressAnimatedView.m */; };
+		840374851E7F108000D08790 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 840374611E7F108000D08790 /* SVProgressHUD.bundle */; };
+		840374861E7F108000D08790 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374631E7F108000D08790 /* SVProgressHUD.m */; };
+		840374871E7F108000D08790 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374651E7F108000D08790 /* SVRadialGradientLayer.m */; };
+		840374881E7F108000D08790 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374681E7F108000D08790 /* UIView+Toast.m */; };
+		840374891E7F108000D08790 /* NLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403746C1E7F108000D08790 /* NLBaseModel.m */; };
+		8403748A1E7F108000D08790 /* NLAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403746F1E7F108000D08790 /* NLAvailability.m */; };
+		8403748B1E7F108000D08790 /* NLLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 840374711E7F108000D08790 /* NLLogin.m */; };
+		8403748F1E7F117800D08790 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8403748E1E7F117800D08790 /* MapKit.framework */; };
+		840374931E7F271800D08790 /* NLAdminNewServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374921E7F271800D08790 /* NLAdminNewServiceViewController.swift */; };
+		840374951E7F272A00D08790 /* NLAdminFailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374941E7F272A00D08790 /* NLAdminFailViewController.swift */; };
+		840374971E7F274600D08790 /* NLAdminSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374961E7F274600D08790 /* NLAdminSuccessViewController.swift */; };
+		840374991E7F275600D08790 /* NLAdminServiceDateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374981E7F275600D08790 /* NLAdminServiceDateTimeViewController.swift */; };
+		8403749B1E7F276B00D08790 /* NLAdminLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403749A1E7F276B00D08790 /* NLAdminLocationViewController.swift */; };
+		8403749D1E7F27A700D08790 /* NLAdminAppointmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403749C1E7F27A700D08790 /* NLAdminAppointmentListViewController.swift */; };
+		8403749F1E7F27CB00D08790 /* NLAdminAppointmentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403749E1E7F27CB00D08790 /* NLAdminAppointmentListTableViewCell.swift */; };
+		840374A11E7F27F600D08790 /* NLAdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374A01E7F27F600D08790 /* NLAdminLoginViewController.swift */; };
+		840374A31E7F280A00D08790 /* NLAdminVerifyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374A21E7F280A00D08790 /* NLAdminVerifyLoginViewController.swift */; };
+		840374A51E7F281D00D08790 /* NLAdminAppointmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374A41E7F281D00D08790 /* NLAdminAppointmentDetailViewController.swift */; };
+		840374A81E7F285900D08790 /* NLUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374A71E7F285900D08790 /* NLUserInfoViewController.swift */; };
+		840374AA1E7F286800D08790 /* NLUserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374A91E7F286800D08790 /* NLUserLocationViewController.swift */; };
+		840374AC1E7F287700D08790 /* NLUserServiceDateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374AB1E7F287700D08790 /* NLUserServiceDateTimeViewController.swift */; };
+		840374AE1E7F289200D08790 /* NLUserAppointmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374AD1E7F289200D08790 /* NLUserAppointmentDetailViewController.swift */; };
+		840374B01E7F28C200D08790 /* NLUserAppointmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374AF1E7F28C200D08790 /* NLUserAppointmentListViewController.swift */; };
+		840374B21E7F28D200D08790 /* NLUserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374B11E7F28D200D08790 /* NLUserLoginViewController.swift */; };
+		840374B41E7F28E800D08790 /* NLAboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374B31E7F28E800D08790 /* NLAboutAppViewController.swift */; };
+		840374B61E7F28F600D08790 /* NLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374B51E7F28F600D08790 /* NLHomeViewController.swift */; };
+		840374B81E7F290200D08790 /* NLHome2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840374B71E7F290200D08790 /* NLHome2ViewController.swift */; };
+		841C389B1E7F7B6900FAB2AF /* TAppointments+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C38901E7F7B6900FAB2AF /* TAppointments+CoreDataClass.m */; };
+		841C389C1E7F7B6900FAB2AF /* TAppointments+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C38921E7F7B6900FAB2AF /* TAppointments+CoreDataProperties.m */; };
+		841C389D1E7F7B6900FAB2AF /* TServices+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C38941E7F7B6900FAB2AF /* TServices+CoreDataClass.m */; };
+		841C389E1E7F7B6900FAB2AF /* TServices+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C38961E7F7B6900FAB2AF /* TServices+CoreDataProperties.m */; };
+		841C389F1E7F7B6900FAB2AF /* TUser+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C38981E7F7B6900FAB2AF /* TUser+CoreDataClass.m */; };
+		841C38A01E7F7B6900FAB2AF /* TUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C389A1E7F7B6900FAB2AF /* TUser+CoreDataProperties.m */; };
+		841C38A81E7F89F300FAB2AF /* NLUserAppointmentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C38A71E7F89F300FAB2AF /* NLUserAppointmentListTableViewCell.swift */; };
+		844507531E80D16B0072CEAE /* GretaArabic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844507521E80D16B0072CEAE /* GretaArabic-Regular.ttf */; };
+		846F44B91E80F7FC0030DDB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846F44BB1E80F7FC0030DDB5 /* InfoPlist.strings */; };
+		846F44BE1E80F7FD0030DDB5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846F44C01E80F7FD0030DDB5 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B72E18CE08B57245AE53B0A /* Pods-Notary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notary/Pods-Notary.release.xcconfig"; sourceTree = "<group>"; };
+		3CE465ACE0F9BD44B6B54048 /* Pods_Notary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403740F1E7F0EFE00D08790 /* Notary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840374121E7F0EFE00D08790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840374171E7F0EFE00D08790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8403741A1E7F0EFE00D08790 /* Notary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notary.xcdatamodel; sourceTree = "<group>"; };
+		8403741C1E7F0EFE00D08790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8403741F1E7F0EFE00D08790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840374211E7F0EFE00D08790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8403742A1E7F108000D08790 /* NLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCommon.h; sourceTree = "<group>"; };
+		8403742B1E7F108000D08790 /* NLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCommon.m; sourceTree = "<group>"; };
+		8403742C1E7F108000D08790 /* UIButton+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Helper.h"; sourceTree = "<group>"; };
+		8403742D1E7F108000D08790 /* UIButton+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Helper.m"; sourceTree = "<group>"; };
+		8403742E1E7F108000D08790 /* UITextField+editingRectForBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+editingRectForBounds.h"; sourceTree = "<group>"; };
+		8403742F1E7F108000D08790 /* UITextField+editingRectForBounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+editingRectForBounds.m"; sourceTree = "<group>"; };
+		840374301E7F108000D08790 /* UITextField+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Helper.h"; sourceTree = "<group>"; };
+		840374311E7F108000D08790 /* UITextField+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Helper.m"; sourceTree = "<group>"; };
+		840374321E7F108000D08790 /* UILabel+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Helper.h"; sourceTree = "<group>"; };
+		840374331E7F108000D08790 /* UILabel+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Helper.m"; sourceTree = "<group>"; };
+		840374501E7F108000D08790 /* AIDatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIDatePickerController.h; sourceTree = "<group>"; };
+		840374511E7F108000D08790 /* AIDatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIDatePickerController.m; sourceTree = "<group>"; };
+		840374531E7F108000D08790 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		840374541E7F108000D08790 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		840374551E7F108000D08790 /* NSDate+Helper.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "NSDate+Helper.podspec.json"; sourceTree = "<group>"; };
+		840374561E7F108000D08790 /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; };
+		840374581E7F108000D08790 /* GMDraggableMarkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDraggableMarkerManager.h; sourceTree = "<group>"; };
+		840374591E7F108000D08790 /* GMDraggableMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDraggableMarkerManager.m; sourceTree = "<group>"; };
+		8403745A1E7F108000D08790 /* GMDraggableMarkerManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDraggableMarkerManagerDelegate.h; sourceTree = "<group>"; };
+		8403745C1E7F108000D08790 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		8403745D1E7F108000D08790 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		8403745E1E7F108000D08790 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		8403745F1E7F108000D08790 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		840374601E7F108000D08790 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		840374611E7F108000D08790 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		840374621E7F108000D08790 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		840374631E7F108000D08790 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		840374641E7F108000D08790 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		840374651E7F108000D08790 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		840374671E7F108000D08790 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		840374681E7F108000D08790 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		8403746B1E7F108000D08790 /* NLBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLBaseModel.h; sourceTree = "<group>"; };
+		8403746C1E7F108000D08790 /* NLBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBaseModel.m; sourceTree = "<group>"; };
+		8403746E1E7F108000D08790 /* NLAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLAvailability.h; sourceTree = "<group>"; };
+		8403746F1E7F108000D08790 /* NLAvailability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLAvailability.m; sourceTree = "<group>"; };
+		840374701E7F108000D08790 /* NLLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLLogin.h; sourceTree = "<group>"; };
+		840374711E7F108000D08790 /* NLLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLLogin.m; sourceTree = "<group>"; };
+		8403748C1E7F10E100D08790 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8403748E1E7F117800D08790 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		840374921E7F271800D08790 /* NLAdminNewServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminNewServiceViewController.swift; sourceTree = "<group>"; };
+		840374941E7F272A00D08790 /* NLAdminFailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminFailViewController.swift; sourceTree = "<group>"; };
+		840374961E7F274600D08790 /* NLAdminSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminSuccessViewController.swift; sourceTree = "<group>"; };
+		840374981E7F275600D08790 /* NLAdminServiceDateTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminServiceDateTimeViewController.swift; sourceTree = "<group>"; };
+		8403749A1E7F276B00D08790 /* NLAdminLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminLocationViewController.swift; sourceTree = "<group>"; };
+		8403749C1E7F27A700D08790 /* NLAdminAppointmentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminAppointmentListViewController.swift; sourceTree = "<group>"; };
+		8403749E1E7F27CB00D08790 /* NLAdminAppointmentListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminAppointmentListTableViewCell.swift; sourceTree = "<group>"; };
+		840374A01E7F27F600D08790 /* NLAdminLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminLoginViewController.swift; sourceTree = "<group>"; };
+		840374A21E7F280A00D08790 /* NLAdminVerifyLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminVerifyLoginViewController.swift; sourceTree = "<group>"; };
+		840374A41E7F281D00D08790 /* NLAdminAppointmentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAdminAppointmentDetailViewController.swift; sourceTree = "<group>"; };
+		840374A71E7F285900D08790 /* NLUserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLUserInfoViewController.swift; sourceTree = "<group>"; };
+		840374A91E7F286800D08790 /* NLUserLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLUserLocationViewController.swift; sourceTree = "<group>"; };
+		840374AB1E7F287700D08790 /* NLUserServiceDateTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLUserServiceDateTimeViewController.swift; sourceTree = "<group>"; };
+		840374AD1E7F289200D08790 /* NLUserAppointmentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLUserAppointmentDetailViewController.swift; sourceTree = "<group>"; };
+		840374AF1E7F28C200D08790 /* NLUserAppointmentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLUserAppointmentListViewController.swift; sourceTree = "<group>"; };
+		840374B11E7F28D200D08790 /* NLUserLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLUserLoginViewController.swift; sourceTree = "<group>"; };
+		840374B31E7F28E800D08790 /* NLAboutAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLAboutAppViewController.swift; sourceTree = "<group>"; };
+		840374B51E7F28F600D08790 /* NLHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLHomeViewController.swift; sourceTree = "<group>"; };
+		840374B71E7F290200D08790 /* NLHome2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLHome2ViewController.swift; sourceTree = "<group>"; };
+		841C388F1E7F7B6900FAB2AF /* TAppointments+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TAppointments+CoreDataClass.h"; sourceTree = "<group>"; };
+		841C38901E7F7B6900FAB2AF /* TAppointments+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TAppointments+CoreDataClass.m"; sourceTree = "<group>"; };
+		841C38911E7F7B6900FAB2AF /* TAppointments+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TAppointments+CoreDataProperties.h"; sourceTree = "<group>"; };
+		841C38921E7F7B6900FAB2AF /* TAppointments+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TAppointments+CoreDataProperties.m"; sourceTree = "<group>"; };
+		841C38931E7F7B6900FAB2AF /* TServices+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TServices+CoreDataClass.h"; sourceTree = "<group>"; };
+		841C38941E7F7B6900FAB2AF /* TServices+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TServices+CoreDataClass.m"; sourceTree = "<group>"; };
+		841C38951E7F7B6900FAB2AF /* TServices+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TServices+CoreDataProperties.h"; sourceTree = "<group>"; };
+		841C38961E7F7B6900FAB2AF /* TServices+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TServices+CoreDataProperties.m"; sourceTree = "<group>"; };
+		841C38971E7F7B6900FAB2AF /* TUser+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TUser+CoreDataClass.h"; sourceTree = "<group>"; };
+		841C38981E7F7B6900FAB2AF /* TUser+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TUser+CoreDataClass.m"; sourceTree = "<group>"; };
+		841C38991E7F7B6900FAB2AF /* TUser+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TUser+CoreDataProperties.h"; sourceTree = "<group>"; };
+		841C389A1E7F7B6900FAB2AF /* TUser+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TUser+CoreDataProperties.m"; sourceTree = "<group>"; };
+		841C38A11E7F7F8000FAB2AF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		841C38A21E7F7F8000FAB2AF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		841C38A71E7F89F300FAB2AF /* NLUserAppointmentListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLUserAppointmentListTableViewCell.swift; sourceTree = "<group>"; };
+		844507521E80D16B0072CEAE /* GretaArabic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GretaArabic-Regular.ttf"; sourceTree = "<group>"; };
+		844507571E80F6A50072CEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		844507591E80F6BF0072CEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		846F44BA1E80F7FC0030DDB5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		846F44BF1E80F7FD0030DDB5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		846F44C11E80F8960030DDB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		846F44C21E80F8C70030DDB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E77A08C7E34ED6D55EC177B6 /* Pods-Notary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notary/Pods-Notary.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8403740C1E7F0EFE00D08790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8403748F1E7F117800D08790 /* MapKit.framework in Frameworks */,
+				2816D461EAC9D0B1FEAD819E /* Pods_Notary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840374061E7F0EFE00D08790 = {
+			isa = PBXGroup;
+			children = (
+				840374111E7F0EFE00D08790 /* Notary */,
+				840374101E7F0EFE00D08790 /* Products */,
+				8403748D1E7F117800D08790 /* Frameworks */,
+				F5A356721788AF1D0B43C626 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		840374101E7F0EFE00D08790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8403740F1E7F0EFE00D08790 /* Notary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840374111E7F0EFE00D08790 /* Notary */ = {
+			isa = PBXGroup;
+			children = (
+				846F44C01E80F7FD0030DDB5 /* Localizable.strings */,
+				846F44BB1E80F7FC0030DDB5 /* InfoPlist.strings */,
+				844507501E80D0D60072CEAE /* Resource */,
+				840374281E7F108000D08790 /* Classes */,
+				840374401E7F108000D08790 /* CoreData */,
+				8403744E1E7F108000D08790 /* Libs */,
+				840374691E7F108000D08790 /* WebServices */,
+				840374121E7F0EFE00D08790 /* AppDelegate.swift */,
+				840374161E7F0EFE00D08790 /* Main.storyboard */,
+				8403741C1E7F0EFE00D08790 /* Assets.xcassets */,
+				8403741E1E7F0EFE00D08790 /* LaunchScreen.storyboard */,
+				840374211E7F0EFE00D08790 /* Info.plist */,
+				840374191E7F0EFE00D08790 /* Notary.xcdatamodeld */,
+				8403748C1E7F10E100D08790 /* Bridging-Header.h */,
+			);
+			path = Notary;
+			sourceTree = "<group>";
+		};
+		840374281E7F108000D08790 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				840374291E7F108000D08790 /* NLCommon */,
+				840374321E7F108000D08790 /* UILabel+Helper.h */,
+				840374331E7F108000D08790 /* UILabel+Helper.m */,
+				840374341E7F108000D08790 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		840374291E7F108000D08790 /* NLCommon */ = {
+			isa = PBXGroup;
+			children = (
+				8403742A1E7F108000D08790 /* NLCommon.h */,
+				8403742B1E7F108000D08790 /* NLCommon.m */,
+				8403742C1E7F108000D08790 /* UIButton+Helper.h */,
+				8403742D1E7F108000D08790 /* UIButton+Helper.m */,
+				8403742E1E7F108000D08790 /* UITextField+editingRectForBounds.h */,
+				8403742F1E7F108000D08790 /* UITextField+editingRectForBounds.m */,
+				840374301E7F108000D08790 /* UITextField+Helper.h */,
+				840374311E7F108000D08790 /* UITextField+Helper.m */,
+			);
+			path = NLCommon;
+			sourceTree = "<group>";
+		};
+		840374341E7F108000D08790 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				840374901E7F268800D08790 /* admin pages */,
+				840374911E7F26A100D08790 /* user pages */,
+				840374351E7F108000D08790 /* about */,
+				8403743A1E7F108000D08790 /* home */,
+				8403743B1E7F108000D08790 /* home2 */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		840374351E7F108000D08790 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				840374B31E7F28E800D08790 /* NLAboutAppViewController.swift */,
+			);
+			path = about;
+			sourceTree = "<group>";
+		};
+		840374361E7F108000D08790 /* adminAppointmentDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840374A41E7F281D00D08790 /* NLAdminAppointmentDetailViewController.swift */,
+			);
+			path = adminAppointmentDetailViewController;
+			sourceTree = "<group>";
+		};
+		840374371E7F108000D08790 /* adminAppointmentList */ = {
+			isa = PBXGroup;
+			children = (
+				8403749C1E7F27A700D08790 /* NLAdminAppointmentListViewController.swift */,
+				8403749E1E7F27CB00D08790 /* NLAdminAppointmentListTableViewCell.swift */,
+			);
+			path = adminAppointmentList;
+			sourceTree = "<group>";
+		};
+		840374381E7F108000D08790 /* adminLogin */ = {
+			isa = PBXGroup;
+			children = (
+				840374A01E7F27F600D08790 /* NLAdminLoginViewController.swift */,
+				840374A21E7F280A00D08790 /* NLAdminVerifyLoginViewController.swift */,
+			);
+			path = adminLogin;
+			sourceTree = "<group>";
+		};
+		840374391E7F108000D08790 /* adminNewService */ = {
+			isa = PBXGroup;
+			children = (
+				840374921E7F271800D08790 /* NLAdminNewServiceViewController.swift */,
+				840374941E7F272A00D08790 /* NLAdminFailViewController.swift */,
+				840374961E7F274600D08790 /* NLAdminSuccessViewController.swift */,
+				840374981E7F275600D08790 /* NLAdminServiceDateTimeViewController.swift */,
+				8403749A1E7F276B00D08790 /* NLAdminLocationViewController.swift */,
+			);
+			path = adminNewService;
+			sourceTree = "<group>";
+		};
+		8403743A1E7F108000D08790 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				840374B51E7F28F600D08790 /* NLHomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		8403743B1E7F108000D08790 /* home2 */ = {
+			isa = PBXGroup;
+			children = (
+				840374B71E7F290200D08790 /* NLHome2ViewController.swift */,
+			);
+			path = home2;
+			sourceTree = "<group>";
+		};
+		8403743C1E7F108000D08790 /* userAppointmentDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840374AD1E7F289200D08790 /* NLUserAppointmentDetailViewController.swift */,
+			);
+			path = userAppointmentDetailViewController;
+			sourceTree = "<group>";
+		};
+		8403743D1E7F108000D08790 /* userAppointmentList */ = {
+			isa = PBXGroup;
+			children = (
+				840374AF1E7F28C200D08790 /* NLUserAppointmentListViewController.swift */,
+				841C38A71E7F89F300FAB2AF /* NLUserAppointmentListTableViewCell.swift */,
+			);
+			path = userAppointmentList;
+			sourceTree = "<group>";
+		};
+		8403743E1E7F108000D08790 /* userLogin */ = {
+			isa = PBXGroup;
+			children = (
+				840374B11E7F28D200D08790 /* NLUserLoginViewController.swift */,
+			);
+			path = userLogin;
+			sourceTree = "<group>";
+		};
+		8403743F1E7F108000D08790 /* userNewService */ = {
+			isa = PBXGroup;
+			children = (
+				840374A71E7F285900D08790 /* NLUserInfoViewController.swift */,
+				840374A91E7F286800D08790 /* NLUserLocationViewController.swift */,
+				840374AB1E7F287700D08790 /* NLUserServiceDateTimeViewController.swift */,
+			);
+			path = userNewService;
+			sourceTree = "<group>";
+		};
+		840374401E7F108000D08790 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				840374B91E7F358F00D08790 /* tables */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		8403744E1E7F108000D08790 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				8403744F1E7F108000D08790 /* AIDatePickerController */,
+				840374521E7F108000D08790 /* date helper */,
+				840374571E7F108000D08790 /* DraggableMarkerManager */,
+				8403745B1E7F108000D08790 /* SVProgressHUD */,
+				840374661E7F108000D08790 /* Toast */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		8403744F1E7F108000D08790 /* AIDatePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				840374501E7F108000D08790 /* AIDatePickerController.h */,
+				840374511E7F108000D08790 /* AIDatePickerController.m */,
+			);
+			path = AIDatePickerController;
+			sourceTree = "<group>";
+		};
+		840374521E7F108000D08790 /* date helper */ = {
+			isa = PBXGroup;
+			children = (
+				840374531E7F108000D08790 /* NSDate+Helper.h */,
+				840374541E7F108000D08790 /* NSDate+Helper.m */,
+				840374551E7F108000D08790 /* NSDate+Helper.podspec.json */,
+				840374561E7F108000D08790 /* README.textile */,
+			);
+			path = "date helper";
+			sourceTree = "<group>";
+		};
+		840374571E7F108000D08790 /* DraggableMarkerManager */ = {
+			isa = PBXGroup;
+			children = (
+				840374581E7F108000D08790 /* GMDraggableMarkerManager.h */,
+				840374591E7F108000D08790 /* GMDraggableMarkerManager.m */,
+				8403745A1E7F108000D08790 /* GMDraggableMarkerManagerDelegate.h */,
+			);
+			path = DraggableMarkerManager;
+			sourceTree = "<group>";
+		};
+		8403745B1E7F108000D08790 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8403745C1E7F108000D08790 /* SVIndefiniteAnimatedView.h */,
+				8403745D1E7F108000D08790 /* SVIndefiniteAnimatedView.m */,
+				8403745E1E7F108000D08790 /* SVProgressAnimatedView.h */,
+				8403745F1E7F108000D08790 /* SVProgressAnimatedView.m */,
+				840374601E7F108000D08790 /* SVProgressHUD-Prefix.pch */,
+				840374611E7F108000D08790 /* SVProgressHUD.bundle */,
+				840374621E7F108000D08790 /* SVProgressHUD.h */,
+				840374631E7F108000D08790 /* SVProgressHUD.m */,
+				840374641E7F108000D08790 /* SVRadialGradientLayer.h */,
+				840374651E7F108000D08790 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		840374661E7F108000D08790 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				840374671E7F108000D08790 /* UIView+Toast.h */,
+				840374681E7F108000D08790 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		840374691E7F108000D08790 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				8403746A1E7F108000D08790 /* Model */,
+				8403746D1E7F108000D08790 /* objectMapping */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		8403746A1E7F108000D08790 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8403746B1E7F108000D08790 /* NLBaseModel.h */,
+				8403746C1E7F108000D08790 /* NLBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8403746D1E7F108000D08790 /* objectMapping */ = {
+			isa = PBXGroup;
+			children = (
+				8403746E1E7F108000D08790 /* NLAvailability.h */,
+				8403746F1E7F108000D08790 /* NLAvailability.m */,
+				840374701E7F108000D08790 /* NLLogin.h */,
+				840374711E7F108000D08790 /* NLLogin.m */,
+			);
+			path = objectMapping;
+			sourceTree = "<group>";
+		};
+		8403748D1E7F117800D08790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8403748E1E7F117800D08790 /* MapKit.framework */,
+				3CE465ACE0F9BD44B6B54048 /* Pods_Notary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840374901E7F268800D08790 /* admin pages */ = {
+			isa = PBXGroup;
+			children = (
+				840374361E7F108000D08790 /* adminAppointmentDetailViewController */,
+				840374371E7F108000D08790 /* adminAppointmentList */,
+				840374381E7F108000D08790 /* adminLogin */,
+				840374391E7F108000D08790 /* adminNewService */,
+			);
+			name = "admin pages";
+			sourceTree = "<group>";
+		};
+		840374911E7F26A100D08790 /* user pages */ = {
+			isa = PBXGroup;
+			children = (
+				8403743F1E7F108000D08790 /* userNewService */,
+				8403743C1E7F108000D08790 /* userAppointmentDetailViewController */,
+				8403743D1E7F108000D08790 /* userAppointmentList */,
+				8403743E1E7F108000D08790 /* userLogin */,
+			);
+			name = "user pages";
+			sourceTree = "<group>";
+		};
+		840374B91E7F358F00D08790 /* tables */ = {
+			isa = PBXGroup;
+			children = (
+				841C388F1E7F7B6900FAB2AF /* TAppointments+CoreDataClass.h */,
+				841C38901E7F7B6900FAB2AF /* TAppointments+CoreDataClass.m */,
+				841C38911E7F7B6900FAB2AF /* TAppointments+CoreDataProperties.h */,
+				841C38921E7F7B6900FAB2AF /* TAppointments+CoreDataProperties.m */,
+				841C38931E7F7B6900FAB2AF /* TServices+CoreDataClass.h */,
+				841C38941E7F7B6900FAB2AF /* TServices+CoreDataClass.m */,
+				841C38951E7F7B6900FAB2AF /* TServices+CoreDataProperties.h */,
+				841C38961E7F7B6900FAB2AF /* TServices+CoreDataProperties.m */,
+				841C38971E7F7B6900FAB2AF /* TUser+CoreDataClass.h */,
+				841C38981E7F7B6900FAB2AF /* TUser+CoreDataClass.m */,
+				841C38991E7F7B6900FAB2AF /* TUser+CoreDataProperties.h */,
+				841C389A1E7F7B6900FAB2AF /* TUser+CoreDataProperties.m */,
+			);
+			path = tables;
+			sourceTree = "<group>";
+		};
+		844507501E80D0D60072CEAE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				844507511E80D16B0072CEAE /* Fonts */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		844507511E80D16B0072CEAE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				844507521E80D16B0072CEAE /* GretaArabic-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F5A356721788AF1D0B43C626 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E77A08C7E34ED6D55EC177B6 /* Pods-Notary.debug.xcconfig */,
+				3B72E18CE08B57245AE53B0A /* Pods-Notary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8403740E1E7F0EFE00D08790 /* Notary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840374241E7F0EFE00D08790 /* Build configuration list for PBXNativeTarget "Notary" */;
+			buildPhases = (
+				12527E3687C3DFDE69883F27 /* [CP] Check Pods Manifest.lock */,
+				8403740B1E7F0EFE00D08790 /* Sources */,
+				8403740C1E7F0EFE00D08790 /* Frameworks */,
+				8403740D1E7F0EFE00D08790 /* Resources */,
+				3C1D65CC7E81C3FE25467BAC /* [CP] Embed Pods Frameworks */,
+				009DA3B918755B85AA0E0411 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notary;
+			productName = Notary;
+			productReference = 8403740F1E7F0EFE00D08790 /* Notary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840374071E7F0EFE00D08790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8403740E1E7F0EFE00D08790 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8403740A1E7F0EFE00D08790 /* Build configuration list for PBXProject "Notary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840374061E7F0EFE00D08790;
+			productRefGroup = 840374101E7F0EFE00D08790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8403740E1E7F0EFE00D08790 /* Notary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8403740D1E7F0EFE00D08790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840374851E7F108000D08790 /* SVProgressHUD.bundle in Resources */,
+				846F44B91E80F7FC0030DDB5 /* InfoPlist.strings in Resources */,
+				840374801E7F108000D08790 /* NSDate+Helper.podspec.json in Resources */,
+				840374811E7F108000D08790 /* README.textile in Resources */,
+				846F44BE1E80F7FD0030DDB5 /* Localizable.strings in Resources */,
+				840374201E7F0EFE00D08790 /* LaunchScreen.storyboard in Resources */,
+				8403741D1E7F0EFE00D08790 /* Assets.xcassets in Resources */,
+				840374181E7F0EFE00D08790 /* Main.storyboard in Resources */,
+				844507531E80D16B0072CEAE /* GretaArabic-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009DA3B918755B85AA0E0411 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notary/Pods-Notary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12527E3687C3DFDE69883F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1D65CC7E81C3FE25467BAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notary/Pods-Notary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8403740B1E7F0EFE00D08790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840374731E7F108000D08790 /* NLCommon.m in Sources */,
+				840374B21E7F28D200D08790 /* NLUserLoginViewController.swift in Sources */,
+				841C389E1E7F7B6900FAB2AF /* TServices+CoreDataProperties.m in Sources */,
+				840374741E7F108000D08790 /* UIButton+Helper.m in Sources */,
+				840374951E7F272A00D08790 /* NLAdminFailViewController.swift in Sources */,
+				8403749D1E7F27A700D08790 /* NLAdminAppointmentListViewController.swift in Sources */,
+				841C38A81E7F89F300FAB2AF /* NLUserAppointmentListTableViewCell.swift in Sources */,
+				840374A81E7F285900D08790 /* NLUserInfoViewController.swift in Sources */,
+				841C389C1E7F7B6900FAB2AF /* TAppointments+CoreDataProperties.m in Sources */,
+				840374AC1E7F287700D08790 /* NLUserServiceDateTimeViewController.swift in Sources */,
+				840374B01E7F28C200D08790 /* NLUserAppointmentListViewController.swift in Sources */,
+				840374971E7F274600D08790 /* NLAdminSuccessViewController.swift in Sources */,
+				8403741B1E7F0EFE00D08790 /* Notary.xcdatamodeld in Sources */,
+				840374AE1E7F289200D08790 /* NLUserAppointmentDetailViewController.swift in Sources */,
+				8403747F1E7F108000D08790 /* NSDate+Helper.m in Sources */,
+				840374871E7F108000D08790 /* SVRadialGradientLayer.m in Sources */,
+				8403748A1E7F108000D08790 /* NLAvailability.m in Sources */,
+				840374931E7F271800D08790 /* NLAdminNewServiceViewController.swift in Sources */,
+				840374771E7F108000D08790 /* UILabel+Helper.m in Sources */,
+				840374B41E7F28E800D08790 /* NLAboutAppViewController.swift in Sources */,
+				8403749B1E7F276B00D08790 /* NLAdminLocationViewController.swift in Sources */,
+				840374A31E7F280A00D08790 /* NLAdminVerifyLoginViewController.swift in Sources */,
+				840374A51E7F281D00D08790 /* NLAdminAppointmentDetailViewController.swift in Sources */,
+				840374A11E7F27F600D08790 /* NLAdminLoginViewController.swift in Sources */,
+				840374991E7F275600D08790 /* NLAdminServiceDateTimeViewController.swift in Sources */,
+				840374B61E7F28F600D08790 /* NLHomeViewController.swift in Sources */,
+				840374841E7F108000D08790 /* SVProgressAnimatedView.m in Sources */,
+				841C38A01E7F7B6900FAB2AF /* TUser+CoreDataProperties.m in Sources */,
+				8403747E1E7F108000D08790 /* AIDatePickerController.m in Sources */,
+				840374831E7F108000D08790 /* SVIndefiniteAnimatedView.m in Sources */,
+				8403749F1E7F27CB00D08790 /* NLAdminAppointmentListTableViewCell.swift in Sources */,
+				840374821E7F108000D08790 /* GMDraggableMarkerManager.m in Sources */,
+				840374891E7F108000D08790 /* NLBaseModel.m in Sources */,
+				8403748B1E7F108000D08790 /* NLLogin.m in Sources */,
+				841C389B1E7F7B6900FAB2AF /* TAppointments+CoreDataClass.m in Sources */,
+				840374881E7F108000D08790 /* UIView+Toast.m in Sources */,
+				841C389F1E7F7B6900FAB2AF /* TUser+CoreDataClass.m in Sources */,
+				840374B81E7F290200D08790 /* NLHome2ViewController.swift in Sources */,
+				840374131E7F0EFE00D08790 /* AppDelegate.swift in Sources */,
+				840374861E7F108000D08790 /* SVProgressHUD.m in Sources */,
+				841C389D1E7F7B6900FAB2AF /* TServices+CoreDataClass.m in Sources */,
+				840374751E7F108000D08790 /* UITextField+editingRectForBounds.m in Sources */,
+				840374761E7F108000D08790 /* UITextField+Helper.m in Sources */,
+				840374AA1E7F286800D08790 /* NLUserLocationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		840374161E7F0EFE00D08790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840374171E7F0EFE00D08790 /* Base */,
+				841C38A11E7F7F8000FAB2AF /* ar */,
+				844507571E80F6A50072CEAE /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8403741E1E7F0EFE00D08790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8403741F1E7F0EFE00D08790 /* Base */,
+				841C38A21E7F7F8000FAB2AF /* ar */,
+				844507591E80F6BF0072CEAE /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		846F44BB1E80F7FC0030DDB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846F44BA1E80F7FC0030DDB5 /* ar */,
+				846F44C21E80F8C70030DDB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		846F44C01E80F7FD0030DDB5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846F44BF1E80F7FD0030DDB5 /* ar */,
+				846F44C11E80F8960030DDB5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840374221E7F0EFE00D08790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840374231E7F0EFE00D08790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840374251E7F0EFE00D08790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77A08C7E34ED6D55EC177B6 /* Pods-Notary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Notary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"ISO8601DateFormatterValueTransformer\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JSONModel\"",
+					"-framework",
+					"\"KNSemiModalViewController_hons82\"",
+					"-framework",
+					"\"MagicalRecord\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RKValueTransformers\"",
+					"-framework",
+					"\"RestKit\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SOCKit\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"THCalendarDatePicker\"",
+					"-framework",
+					"\"TransitionKit\"",
+					"-framework",
+					"\"UIActivityIndicator_for_SDWebImage\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UINavigationBar_Addition\"",
+					"-framework",
+					"\"UITableView_Placeholder\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nt.Notary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Notary/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		840374261E7F0EFE00D08790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B72E18CE08B57245AE53B0A /* Pods-Notary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Notary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"ISO8601DateFormatterValueTransformer\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JSONModel\"",
+					"-framework",
+					"\"KNSemiModalViewController_hons82\"",
+					"-framework",
+					"\"MagicalRecord\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RKValueTransformers\"",
+					"-framework",
+					"\"RestKit\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SOCKit\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"THCalendarDatePicker\"",
+					"-framework",
+					"\"TransitionKit\"",
+					"-framework",
+					"\"UIActivityIndicator_for_SDWebImage\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UINavigationBar_Addition\"",
+					"-framework",
+					"\"UITableView_Placeholder\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nt.Notary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Notary/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8403740A1E7F0EFE00D08790 /* Build configuration list for PBXProject "Notary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840374221E7F0EFE00D08790 /* Debug */,
+				840374231E7F0EFE00D08790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840374241E7F0EFE00D08790 /* Build configuration list for PBXNativeTarget "Notary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840374251E7F0EFE00D08790 /* Debug */,
+				840374261E7F0EFE00D08790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		840374191E7F0EFE00D08790 /* Notary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8403741A1E7F0EFE00D08790 /* Notary.xcdatamodel */,
+			);
+			currentVersion = 8403741A1E7F0EFE00D08790 /* Notary.xcdatamodel */;
+			path = Notary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 840374071E7F0EFE00D08790 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module MBLocationManager {
+  umbrella header "MBLocationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

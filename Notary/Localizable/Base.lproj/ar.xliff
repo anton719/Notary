@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Notary/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body/>
+  </file>
+  <file original="Notary/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="0Fq-fl-oVp.normalTitle">
+        <source>Arabic</source>
+        <note>Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "0Fq-fl-oVp";</note>
+      </trans-unit>
+      <trans-unit id="0Ub-8e-BRa.text">
+        <source>Number of Beneficiaries</source>
+        <target>حدد عدد المستفيدين</target>
+        <note>Class = "UILabel"; text = "Number of Beneficiaries"; ObjectID = "0Ub-8e-BRa";</note>
+      </trans-unit>
+      <trans-unit id="2p2-lL-UEp.text">
+        <source>Mobile Notary</source>
+        <target>كتابة العدل المتنقلة</target>
+        <note>Class = "UILabel"; text = "Mobile Notary"; ObjectID = "2p2-lL-UEp";</note>
+      </trans-unit>
+      <trans-unit id="3pU-kU-Sbv.text">
+        <source>Enter PIN</source>
+        <target>كلمة المرور المؤقتة</target>
+        <note>Class = "UILabel"; text = "Enter PIN"; ObjectID = "3pU-kU-Sbv";</note>
+      </trans-unit>
+      <trans-unit id="5Hc-om-UQr.text">
+        <source>Representative Sign-in</source>
+        <target>دخول ممثلي الخدمة</target>
+        <note>Class = "UILabel"; text = "Representative Sign-in"; ObjectID = "5Hc-om-UQr";</note>
+      </trans-unit>
+      <trans-unit id="5Ld-rY-2XL.text">
+        <source>Representative Sign-in</source>
+        <target>دخول ممثلي الخدمة</target>
+        <note>Class = "UILabel"; text = "Representative Sign-in"; ObjectID = "5Ld-rY-2XL";</note>
+      </trans-unit>
+      <trans-unit id="5d1-HP-GjJ.normalTitle">
+        <source>UpComing</source>
+        <target>القادمة</target>
+        <note>Class = "UIButton"; normalTitle = "UpComing"; ObjectID = "5d1-HP-GjJ";</note>
+      </trans-unit>
+      <trans-unit id="6Vi-jz-XOw.normalTitle">
+        <source>Cancel</source>
+        <target>إلغاء الطلب</target>
+        <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "6Vi-jz-XOw";</note>
+      </trans-unit>
+      <trans-unit id="7PN-jA-Ht4.text">
+        <source>Appointments Details</source>
+        <target>تفاصيل موعد</target>
+        <note>Class = "UILabel"; text = "Appointments Details"; ObjectID = "7PN-jA-Ht4";</note>
+      </trans-unit>
+      <trans-unit id="7gb-jI-0AP.normalTitle">
+        <source>Beneficiaries Sign-in</source>
+        <target>دخول المستفيدين</target>
+        <note>Class = "UIButton"; normalTitle = "Beneficiaries Sign-in"; ObjectID = "7gb-jI-0AP";</note>
+      </trans-unit>
+      <trans-unit id="7xU-0w-7Ut.segmentTitles[0]">
+        <source>ميلادي</source>
+        <target>ميلادي</target>
+        <note>Class = "UISegmentedControl"; 7xU-0w-7Ut.segmentTitles[0] = "ميلادي"; ObjectID = "7xU-0w-7Ut";</note>
+      </trans-unit>
+      <trans-unit id="7xU-0w-7Ut.segmentTitles[1]">
+        <source>هجري</source>
+        <target>هجري</target>
+        <note>Class = "UISegmentedControl"; 7xU-0w-7Ut.segmentTitles[1] = "هجري"; ObjectID = "7xU-0w-7Ut";</note>
+      </trans-unit>
+      <trans-unit id="8zw-QN-dhJ.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "8zw-QN-dhJ";</note>
+      </trans-unit>
+      <trans-unit id="9CN-2k-mfc.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "9CN-2k-mfc";</note>
+      </trans-unit>
+      <trans-unit id="89z-vp-wzb.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "89z-vp-wzb";</note>
+      </trans-unit>
+      <trans-unit id="95w-vN-t7D.text">
+        <source>Select Date</source>
+        <target>تاريخ الميلاد</target>
+        <note>Class = "UILabel"; text = "Select Date"; ObjectID = "95w-vN-t7D";</note>
+      </trans-unit>
+      <trans-unit id="A2y-Dy-5yh.text">
+        <source>You can browse your appointments from Home Page</source>
+        <target>بإمكانك استعراض مواعيدك
+من الصفحة الرئيسة</target>
+        <note>Class = "UILabel"; text = "You can browse your appointments from Home Page"; ObjectID = "A2y-Dy-5yh";</note>
+      </trans-unit>
+      <trans-unit id="A9I-C8-edS.text">
+        <source>National ID</source>
+        <target>رقم الهوية</target>
+        <note>Class = "UILabel"; text = "National ID"; ObjectID = "A9I-C8-edS";</note>
+      </trans-unit>
+      <trans-unit id="ATX-su-oDw.text">
+        <source>Mobile Notary</source>
+        <target>كتابة العدل المتنقلة</target>
+        <note>Class = "UILabel"; text = "Mobile Notary"; ObjectID = "ATX-su-oDw";</note>
+      </trans-unit>
+      <trans-unit id="AUv-8E-ZNW.text">
+        <source>Cancel Appointment</source>
+        <note>Class = "UILabel"; text = "Cancel Appointment"; ObjectID = "AUv-8E-ZNW";</note>
+      </trans-unit>
+      <trans-unit id="ArC-c3-jeH.text">
+        <source>This screen specific to the service accredited representatives of the Ministry of Justice with the official authorities, such as hospitals and the relevant authorities. To record the official authorities, continue with the unit mobile services mpn@moj.gov.sa</source>
+        <target>هذه الشاشة تخص ممثلي الخدمة المعتمدين من وزارة العدل لدى الجهات الرسمية كالمستشفيات والجهات ذات العلاقة.
+لتسجيل الجهات الرسمية، تواصل مع وحدة الخدمات المتنقلة mpn@moj.gov.sa</target>
+        <note>Class = "UILabel"; text = "This screen specific to the service accredited representatives of the Ministry of Justice with the official authorities, such as hospitals and the relevant authorities. To record the official authorities, continue with the unit mobile services mpn@moj.gov.sa"; ObjectID = "ArC-c3-jeH";</note>
+      </trans-unit>
+      <trans-unit id="B3z-e7-Hfi.normalTitle">
+        <source>Arabic</source>
+        <note>Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "B3z-e7-Hfi";</note>
+      </trans-unit>
+      <trans-unit id="BMA-Cs-uzc.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "BMA-Cs-uzc";</note>
+      </trans-unit>
+      <trans-unit id="Cq8-ZE-fRo.text">
+        <source>٢٥٥</source>
+        <target>٢٥٥</target>
+        <note>Class = "UILabel"; text = "٢٥٥"; ObjectID = "Cq8-ZE-fRo";</note>
+      </trans-unit>
+      <trans-unit id="Dof-CF-9z7.text">
+        <source>Submitted Successfully</source>
+        <target>تم استلام طلبك بنجاح</target>
+        <note>Class = "UILabel"; text = "Submitted Successfully"; ObjectID = "Dof-CF-9z7";</note>
+      </trans-unit>
+      <trans-unit id="Dwk-dX-2LN.text">
+        <source>المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤</source>
+        <target>المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤</target>
+        <note>Class = "UILabel"; text = "المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤"; ObjectID = "Dwk-dX-2LN";</note>
+      </trans-unit>
+      <trans-unit id="E5M-qB-Hq2.normalTitle">
+        <source>My Appointments</source>
+        <target>مواعيدي</target>
+        <note>Class = "UIButton"; normalTitle = "My Appointments"; ObjectID = "E5M-qB-Hq2";</note>
+      </trans-unit>
+      <trans-unit id="GW1-eJ-Wu3.normalTitle">
+        <source>Home Page</source>
+        <target>عودة للصفحة الرئيسة</target>
+        <note>Class = "UIButton"; normalTitle = "Home Page"; ObjectID = "GW1-eJ-Wu3";</note>
+      </trans-unit>
+      <trans-unit id="HFE-AT-tBk.normalTitle">
+        <source>Home Page</source>
+        <target>عودة للصفحة الرئيسة</target>
+        <note>Class = "UIButton"; normalTitle = "Home Page"; ObjectID = "HFE-AT-tBk";</note>
+      </trans-unit>
+      <trans-unit id="JiE-pO-VM6.normalTitle">
+        <source>Booking Appointment</source>
+        <target>تقديم الطلب</target>
+        <note>Class = "UIButton"; normalTitle = "Booking Appointment"; ObjectID = "JiE-pO-VM6";</note>
+      </trans-unit>
+      <trans-unit id="JuQ-zC-jhJ.normalTitle">
+        <source>Submit</source>
+        <target>تقديم الطلب</target>
+        <note>Class = "UIButton"; normalTitle = "Submit"; ObjectID = "JuQ-zC-jhJ";</note>
+      </trans-unit>
+      <trans-unit id="LFj-0c-cIM.normalTitle">
+        <source>Back</source>
+      </trans-unit>
+      <trans-unit id="LaV-8A-Quc.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "LaV-8A-Quc";</note>
+      </trans-unit>
+      <trans-unit id="Lfs-yV-9NO.normalTitle">
+        <source>Sign-in</source>
+        <target>دخول</target>
+        <note>Class = "UIButton"; normalTitle = "Sign-in"; ObjectID = "Lfs-yV-9NO";</note>
+      </trans-unit>
+      <trans-unit id="Llj-tX-y5v.text">
+        <source>Select Date</source>
+        <target>اختر التاريخ</target>
+        <note>Class = "UILabel"; text = "Select Date"; ObjectID = "Llj-tX-y5v";</note>
+      </trans-unit>
+      <trans-unit id="MCS-gv-pqH.normalTitle">
+        <source>About App</source>
+        <target>عن التطبيق</target>
+        <note>Class = "UIButton"; normalTitle = "About App"; ObjectID = "MCS-gv-pqH";</note>
+      </trans-unit>
+      <trans-unit id="MH9-Xl-Vvt.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "MH9-Xl-Vvt";</note>
+      </trans-unit>
+      <trans-unit id="MQz-EW-83j.text">
+        <source>Submitted Successfully</source>
+        <target>تم استلام طلبك بنجاح</target>
+        <note>Class = "UILabel"; text = "Submitted Successfully"; ObjectID = "MQz-EW-83j";</note>
+      </trans-unit>
+      <trans-unit id="McT-3J-xGu.normalTitle">
+        <source>Previous Page</source>
+        <target>عودة للصفحة السابقة</target>
+        <note>Class = "UIButton"; normalTitle = "Previous Page"; ObjectID = "McT-3J-xGu";</note>
+      </trans-unit>
+      <trans-unit id="MwV-k8-hb1.normalTitle">
+        <source>Previous</source>
+        <target>السابقة</target>
+        <note>Class = "UIButton"; normalTitle = "Previous"; ObjectID = "MwV-k8-hb1";</note>
+      </trans-unit>
+      <trans-unit id="NUX-4v-FV7.text">
+        <source>Date &amp; Time</source>
+        <target>التاريخ والوقت</target>
+        <note>Class = "UILabel"; text = "Date &amp; Time"; ObjectID = "NUX-4v-FV7";</note>
+      </trans-unit>
+      <trans-unit id="Oya-cC-QrM.normalTitle">
+        <source>Cancel</source>
+        <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Oya-cC-QrM";</note>
+      </trans-unit>
+      <trans-unit id="PcM-5D-hu7.text">
+        <source>565656</source>
+        <target>565656</target>
+      </trans-unit>
+      <trans-unit id="Q4u-zr-Dmb.text">
+        <source>Your Location</source>
+        <target>حدد موقعك</target>
+        <note>Class = "UILabel"; text = "Your Location"; ObjectID = "Q4u-zr-Dmb";</note>
+      </trans-unit>
+      <trans-unit id="Q9F-IU-ib7.normalTitle">
+        <source>UpComing</source>
+        <target>القادمة</target>
+        <note>Class = "UIButton"; normalTitle = "UpComing"; ObjectID = "Q9F-IU-ib7";</note>
+      </trans-unit>
+      <trans-unit id="QCX-Pd-Syi.text">
+        <source>Notary mobile, is a free service of the Ministry of Justice, to serve those unable to come to the headquarters of the writings of justice, and an end to their actions. The application also serves, representatives of patients Affairs and the role of observation, for submissions on behalf of the beneficiaries. For more information about the Department of Justice Services, visit the website www.moj.gov.sa</source>
+        <target>كتابة العدل المتنقلة، هي خدمة مجانية من وزارة العدل، لخدمة غير القادرين على الحضور إلى مقرات كتابات العدل، وإنهاء إجراءاتهم. 
+يخدم التطبيق أيضًا، ممثلي شؤون المرضى ودور الملاحظة، لتقديم الطلبات نيابة عن المستفيدين.
+لمعلومات أكثر حول خدمات وزارة العدل، تفضل بزيارة الموقع الإلكتروني www.moj.gov.sa</target>
+      </trans-unit>
+      <trans-unit id="R1U-6T-aZ1.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "R1U-6T-aZ1";</note>
+      </trans-unit>
+      <trans-unit id="SRN-6O-Ajc.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "SRN-6O-Ajc";</note>
+      </trans-unit>
+      <trans-unit id="TM0-VL-D8X.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "TM0-VL-D8X";</note>
+      </trans-unit>
+      <trans-unit id="TsC-Ku-nwl.normalTitle">
+        <source>Home Page</source>
+        <target>عودة للصفحة الرئيسة</target>
+        <note>Class = "UIButton"; normalTitle = "Home Page"; ObjectID = "TsC-Ku-nwl";</note>
+      </trans-unit>
+      <trans-unit id="U57-xf-Sjf.normalTitle">
+        <source>Cancel</source>
+        <target>إلغاء الطلب</target>
+        <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "U57-xf-Sjf";</note>
+      </trans-unit>
+      <trans-unit id="UB7-Yr-7IF.text">
+        <source>A free service of the Ministry of Justice, to provide Notary services for the Elderly people and in-patients.</source>
+        <target>خدمة مجانية من وزارة العدل، لتقديم الخدمات العدلية لكبار السن، والمرضى في المستشفيات في مقر إقامتهم</target>
+        <note>Class = "UILabel"; text = "A free service of the Ministry of Justice, to provide Notary services for the Elderly people and in-patients."; ObjectID = "UB7-Yr-7IF";</note>
+      </trans-unit>
+      <trans-unit id="UOs-hs-cpO.text">
+        <source>Appointments Details</source>
+        <target>تفاصيل موعد</target>
+        <note>Class = "UILabel"; text = "Appointments Details"; ObjectID = "UOs-hs-cpO";</note>
+      </trans-unit>
+      <trans-unit id="UdH-qB-V5G.text">
+        <source>Location</source>
+        <target>حدد الموقع</target>
+        <note>Class = "UILabel"; text = "Location"; ObjectID = "UdH-qB-V5G";</note>
+      </trans-unit>
+      <trans-unit id="UeR-qu-SYA.segmentTitles[0]">
+        <source>ميلادي</source>
+        <target>ميلادي</target>
+        <note>Class = "UISegmentedControl"; UeR-qu-SYA.segmentTitles[0] = "ميلادي"; ObjectID = "UeR-qu-SYA";</note>
+      </trans-unit>
+      <trans-unit id="UeR-qu-SYA.segmentTitles[1]">
+        <source>هجري</source>
+        <target>هجري</target>
+        <note>Class = "UISegmentedControl"; UeR-qu-SYA.segmentTitles[1] = "هجري"; ObjectID = "UeR-qu-SYA";</note>
+      </trans-unit>
+      <trans-unit id="VnE-cJ-6cX.text">
+        <source>٢٥٥</source>
+        <target>٢٥٥</target>
+        <note>Class = "UILabel"; text = "٢٥٥"; ObjectID = "VnE-cJ-6cX";</note>
+      </trans-unit>
+      <trans-unit id="Vpj-gi-jmJ.text">
+        <source>Browse Appointments</source>
+        <target>استعراض المواعيد</target>
+        <note>Class = "UILabel"; text = "Browse Appointments"; ObjectID = "Vpj-gi-jmJ";</note>
+      </trans-unit>
+      <trans-unit id="X7n-EY-I8k.text">
+        <source>Browse Appointments</source>
+        <target>استعراض المواعيد</target>
+        <note>Class = "UILabel"; text = "Browse Appointments"; ObjectID = "X7n-EY-I8k";</note>
+      </trans-unit>
+      <trans-unit id="X8r-8I-eRO.segmentTitles[0]">
+        <source>ميلادي</source>
+        <target>ميلادي</target>
+        <note>Class = "UISegmentedControl"; X8r-8I-eRO.segmentTitles[0] = "ميلادي"; ObjectID = "X8r-8I-eRO";</note>
+      </trans-unit>
+      <trans-unit id="X8r-8I-eRO.segmentTitles[1]">
+        <source>هجري</source>
+        <target>هجري</target>
+        <note>Class = "UISegmentedControl"; X8r-8I-eRO.segmentTitles[1] = "هجري"; ObjectID = "X8r-8I-eRO";</note>
+      </trans-unit>
+      <trans-unit id="Zvr-br-Zlz.text">
+        <source>١٨ جمادى الأول، ٩:٠٠ صباحًا </source>
+        <target>١٨ جمادى الأول، ٩:٠٠ صباحًا </target>
+        <note>Class = "UILabel"; text = "١٨ جمادى الأول، ٩:٠٠ صباحًا "; ObjectID = "Zvr-br-Zlz";</note>
+      </trans-unit>
+      <trans-unit id="ag9-ey-eDW.text">
+        <source>Birth Date</source>
+        <target>تاريخ الميلاد</target>
+        <note>Class = "UILabel"; text = "Birth Date"; ObjectID = "ag9-ey-eDW";</note>
+      </trans-unit>
+      <trans-unit id="aqK-Hs-Q94.text">
+        <source>Sorry , something wrong happened. Please go to previous page and make sure of your information</source>
+        <target>عفوًا لقد حدث خطأ ما ، إرجع للصفحة السابقة وتأكد من اختياراتك.</target>
+        <note>Class = "UILabel"; text = "Sorry , something wrong happened. Please go to previous page and make sure of your information"; ObjectID = "aqK-Hs-Q94";</note>
+      </trans-unit>
+      <trans-unit id="bgZ-Za-0Y6.text">
+        <source>Select Date</source>
+        <target>تاريخ الميلاد</target>
+        <note>Class = "UILabel"; text = "Select Date"; ObjectID = "bgZ-Za-0Y6";</note>
+      </trans-unit>
+      <trans-unit id="bom-Vg-tr4.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "bom-Vg-tr4";</note>
+      </trans-unit>
+      <trans-unit id="bvc-ud-XsJ.text">
+        <source>You will recieve a confirmation on</source>
+        <target>ستصلك رسالة تأكيدية على هاتفك 
+٠٥٤٤٥٥٤٤٥٥٠</target>
+        <note>Class = "UILabel"; text = "You will recieve a confirmation on"; ObjectID = "bvc-ud-XsJ";</note>
+      </trans-unit>
+      <trans-unit id="cCA-SV-rfA.text">
+        <source>Birth Date</source>
+        <target>تاريخ الميلاد</target>
+        <note>Class = "UILabel"; text = "Birth Date"; ObjectID = "cCA-SV-rfA";</note>
+      </trans-unit>
+      <trans-unit id="cEe-UN-mTF.text">
+        <source>Select Time</source>
+        <target>اختر الوقت</target>
+        <note>Class = "UILabel"; text = "Select Time"; ObjectID = "cEe-UN-mTF";</note>
+      </trans-unit>
+      <trans-unit id="cMq-8J-Kxl.normalTitle">
+        <source>Next</source>
+        <target>تقديم الطلب</target>
+        <note>Class = "UIButton"; normalTitle = "Next"; ObjectID = "cMq-8J-Kxl";</note>
+      </trans-unit>
+      <trans-unit id="cTY-l0-4XH.normalTitle">
+        <source>Next</source>
+        <target>التالي</target>
+        <note>Class = "UIButton"; normalTitle = "Next"; ObjectID = "cTY-l0-4XH";</note>
+      </trans-unit>
+      <trans-unit id="cUw-3r-Hua.text">
+        <source>2222</source>
+        <target>45454</target>
+      </trans-unit>
+      <trans-unit id="cZL-tA-rNG.text">
+        <source>National ID</source>
+        <target>رقم الهوية</target>
+        <note>Class = "UILabel"; text = "National ID"; ObjectID = "cZL-tA-rNG";</note>
+      </trans-unit>
+      <trans-unit id="clD-8C-UkD.text">
+        <source>You can browse your appointments from Home Page</source>
+        <target>بإمكانك استعراض مواعيدك
+من الصفحة الرئيسة</target>
+        <note>Class = "UILabel"; text = "You can browse your appointments from Home Page"; ObjectID = "clD-8C-UkD";</note>
+      </trans-unit>
+      <trans-unit id="dy4-MH-Meu.text">
+        <source>National ID</source>
+        <target>رقم الهوية</target>
+        <note>Class = "UILabel"; text = "National ID"; ObjectID = "dy4-MH-Meu";</note>
+      </trans-unit>
+      <trans-unit id="e4P-dM-stj.normalTitle">
+        <source>About App</source>
+        <target>عن التطبيق</target>
+      </trans-unit>
+      <trans-unit id="eDg-Kq-ncM.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "eDg-Kq-ncM";</note>
+      </trans-unit>
+      <trans-unit id="etN-fq-gXw.normalTitle">
+        <source>Representative Sign-in</source>
+        <target>دخول ممثل الخدمة</target>
+        <note>Class = "UIButton"; normalTitle = "Representative Sign-in"; ObjectID = "etN-fq-gXw";</note>
+      </trans-unit>
+      <trans-unit id="gje-U9-2PY.text">
+        <source>Select Time</source>
+        <target>اختر الوقت</target>
+        <note>Class = "UILabel"; text = "Select Time"; ObjectID = "gje-U9-2PY";</note>
+      </trans-unit>
+      <trans-unit id="hOv-9S-Oeu.text">
+        <source>You will recieve a confirmation on</source>
+        <target>ستصلك رسالة تأكيدية على هاتفك 
+٠٥٤٤٥٥٤٤٥٥٠</target>
+        <note>Class = "UILabel"; text = "You will recieve a confirmation on"; ObjectID = "hOv-9S-Oeu";</note>
+      </trans-unit>
+      <trans-unit id="i7H-wq-EWK.text">
+        <source>Service</source>
+        <target> الخدمة</target>
+        <note>Class = "UILabel"; text = "Service"; ObjectID = "i7H-wq-EWK";</note>
+      </trans-unit>
+      <trans-unit id="ino-q7-Gxa.normalTitle">
+        <source>Home Page</source>
+        <target>عودة للصفحة الرئيسة</target>
+        <note>Class = "UIButton"; normalTitle = "Home Page"; ObjectID = "ino-q7-Gxa";</note>
+      </trans-unit>
+      <trans-unit id="kTk-K2-aIx.text">
+        <source>About App</source>
+        <target>عن التطبيق</target>
+      </trans-unit>
+      <trans-unit id="kWH-SD-V2E.text">
+        <source>١٩ جمادى الأول</source>
+        <target>١٩ جمادى الأول</target>
+        <note>Class = "UILabel"; text = "١٩ جمادى الأول"; ObjectID = "kWH-SD-V2E";</note>
+      </trans-unit>
+      <trans-unit id="kh8-B6-YXA.normalTitle">
+        <source>Cancel Appointment</source>
+        <target>إلغاء الموعد</target>
+      </trans-unit>
+      <trans-unit id="kkp-D3-cap.text">
+        <source>A free service of the Ministry of Justice, to provide Notary services for the Elderly people and in-patients.</source>
+        <target>خدمة مجانية من وزارة العدل، لتقديم الخدمات العدلية لكبار السن، والمرضى في المستشفيات في مقر إقامتهم</target>
+        <note>Class = "UILabel"; text = "A free service of the Ministry of Justice, to provide Notary services for the Elderly people and in-patients."; ObjectID = "kkp-D3-cap";</note>
+      </trans-unit>
+      <trans-unit id="kvv-jk-zIF.normalTitle">
+        <source>Sign-in</source>
+        <target>دخول</target>
+        <note>Class = "UIButton"; normalTitle = "Sign-in"; ObjectID = "kvv-jk-zIF";</note>
+      </trans-unit>
+      <trans-unit id="lJj-Kf-c6r.text">
+        <source>المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤</source>
+        <target>المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤</target>
+        <note>Class = "UILabel"; text = "المملكة العربية السعودية، الرياض، حي الملك عبدالعزيز  ١٤٢٢٢، شارع الأمير محمد بن  عبدالعزيز بن فهد  بن ناصر، ١٣٩٤"; ObjectID = "lJj-Kf-c6r";</note>
+      </trans-unit>
+      <trans-unit id="nq3-La-3Br.segmentTitles[0]">
+        <source>ميلادي</source>
+        <note>Class = "UISegmentedControl"; nq3-La-3Br.segmentTitles[0] = "ميلادي"; ObjectID = "nq3-La-3Br";</note>
+      </trans-unit>
+      <trans-unit id="nq3-La-3Br.segmentTitles[1]">
+        <source>هجري</source>
+        <note>Class = "UISegmentedControl"; nq3-La-3Br.segmentTitles[1] = "هجري"; ObjectID = "nq3-La-3Br";</note>
+      </trans-unit>
+      <trans-unit id="o94-NZ-TkT.normalTitle">
+        <source>Booking Appointment</source>
+        <note>Class = "UIButton"; normalTitle = "Booking Appointment"; ObjectID = "o94-NZ-TkT";</note>
+      </trans-unit>
+      <trans-unit id="oxd-tm-1lG.text">
+        <source>Cancel Appointment</source>
+        <note>Class = "UILabel"; text = "Cancel Appointment"; ObjectID = "oxd-tm-1lG";</note>
+      </trans-unit>
+      <trans-unit id="p9a-Wh-0R3.normalTitle">
+        <source>Previous</source>
+        <target>السابقة</target>
+        <note>Class = "UIButton"; normalTitle = "Previous"; ObjectID = "p9a-Wh-0R3";</note>
+      </trans-unit>
+      <trans-unit id="pKU-iG-4Bz.normalTitle">
+        <source>Next</source>
+        <target>تقديم الطلب</target>
+        <note>Class = "UIButton"; normalTitle = "Next"; ObjectID = "pKU-iG-4Bz";</note>
+      </trans-unit>
+      <trans-unit id="ptx-eA-cPg.text">
+        <source>Service</source>
+        <note>Class = "UILabel"; text = "Service"; ObjectID = "ptx-eA-cPg";</note>
+      </trans-unit>
+      <trans-unit id="qql-VG-mdW.normalTitle">
+        <source>Representative Sign-in</source>
+        <note>Class = "UIButton"; normalTitle = "Representative Sign-in"; ObjectID = "qql-VG-mdW";</note>
+      </trans-unit>
+      <trans-unit id="rGH-UK-pbe.normalTitle">
+        <source>Show Appointments</source>
+        <target>عرض المواعيد</target>
+        <note>Class = "UIButton"; normalTitle = "Show Appointments"; ObjectID = "rGH-UK-pbe";</note>
+      </trans-unit>
+      <trans-unit id="s4F-4W-Ecg.text">
+        <source>Mobile Number</source>
+        <target>رقم الجوال</target>
+        <note>Class = "UILabel"; text = "Mobile Number"; ObjectID = "s4F-4W-Ecg";</note>
+      </trans-unit>
+      <trans-unit id="tHb-KJ-Tdy.text">
+        <source>١٩ جمادى الأول</source>
+        <target>١٩ جمادى الأول</target>
+        <note>Class = "UILabel"; text = "١٩ جمادى الأول"; ObjectID = "tHb-KJ-Tdy";</note>
+      </trans-unit>
+      <trans-unit id="tdb-Jw-QoQ.segmentTitles[0]">
+        <source>ميلادي</source>
+        <target>ميلادي</target>
+        <note>Class = "UISegmentedControl"; tdb-Jw-QoQ.segmentTitles[0] = "ميلادي"; ObjectID = "tdb-Jw-QoQ";</note>
+      </trans-unit>
+      <trans-unit id="tdb-Jw-QoQ.segmentTitles[1]">
+        <source>هجري</source>
+        <target>هجري</target>
+        <note>Class = "UISegmentedControl"; tdb-Jw-QoQ.segmentTitles[1] = "هجري"; ObjectID = "tdb-Jw-QoQ";</note>
+      </trans-unit>
+      <trans-unit id="u7F-GO-gqU.text">
+        <source>Sorry , something wrong happened. Please go to previous page and make sure of your information</source>
+        <target>عفوًا لقد حدث خطأ ما ، إرجع للصفحة السابقة وتأكد من اختياراتك.</target>
+        <note>Class = "UILabel"; text = "Sorry , something wrong happened. Please go to previous page and make sure of your information"; ObjectID = "u7F-GO-gqU";</note>
+      </trans-unit>
+      <trans-unit id="u72-KE-OEE.text">
+        <source>١٨ جمادى الأول، ٩:٠٠ صباحًا </source>
+        <target>١٨ جمادى الأول، ٩:٠٠ صباحًا </target>
+        <note>Class = "UILabel"; text = "١٨ جمادى الأول، ٩:٠٠ صباحًا "; ObjectID = "u72-KE-OEE";</note>
+      </trans-unit>
+      <trans-unit id="uDt-XB-C0l.text">
+        <source>In case you do not receive the temporary code message on your mobile phone for more than two minutes, then come back and try again. In case of recurrence of the problem, continue with the unit mobile services mpn@moj.gov.sa</source>
+        <target>في حال لم تصلك رسالة الرمز المؤقت على هاتفك الجوال لأكثر من دقيقتين، قم بالعودة ثم حاول مرة أخرى.
+في حال تكرار المشكلة، تواصل مع وحدة الخدمات المتنقلة mpn@moj.gov.sa</target>
+        <note>Class = "UILabel"; text = "In case you do not receive the temporary code message on your mobile phone for more than two minutes, then come back and try again. In case of recurrence of the problem, continue with the unit mobile services mpn@moj.gov.sa"; ObjectID = "uDt-XB-C0l";</note>
+      </trans-unit>
+      <trans-unit id="w0b-fn-rV8.normalTitle">
+        <source>Cancel Appointment</source>
+        <target>إلغاء الموعد</target>
+      </trans-unit>
+      <trans-unit id="w6g-1O-Qu2.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "w6g-1O-Qu2";</note>
+      </trans-unit>
+      <trans-unit id="wVT-xv-OE8.text">
+        <source>Mobile Number</source>
+        <target>رقم الجوال</target>
+        <note>Class = "UILabel"; text = "Mobile Number"; ObjectID = "wVT-xv-OE8";</note>
+      </trans-unit>
+      <trans-unit id="wcu-bA-VUw.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "wcu-bA-VUw";</note>
+      </trans-unit>
+      <trans-unit id="wlt-AB-J68.text">
+        <source>Select Time</source>
+        <target>اختر الوقت</target>
+        <note>Class = "UILabel"; text = "Select Time"; ObjectID = "wlt-AB-J68";</note>
+      </trans-unit>
+      <trans-unit id="xGZ-he-19I.normalTitle">
+        <source>Previous Page</source>
+        <target>عودة للصفحة السابقة</target>
+        <note>Class = "UIButton"; normalTitle = "Previous Page"; ObjectID = "xGZ-he-19I";</note>
+      </trans-unit>
+      <trans-unit id="xND-z1-1sk.normalTitle">
+        <source>Back</source>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "xND-z1-1sk";</note>
+      </trans-unit>
+      <trans-unit id="y8i-8x-1Yw.normalTitle">
+        <source>Submit</source>
+        <target>تقديم الطلب</target>
+        <note>Class = "UIButton"; normalTitle = "Submit"; ObjectID = "y8i-8x-1Yw";</note>
+      </trans-unit>
+      <trans-unit id="ynU-j8-cE5.normalTitle">
+        <source>Next</source>
+        <target>التالي</target>
+        <note>Class = "UIButton"; normalTitle = "Next"; ObjectID = "ynU-j8-cE5";</note>
+      </trans-unit>
+      <trans-unit id="zSv-Pu-NiU.text">
+        <source>Mobile Number</source>
+        <target>رقم الجوال</target>
+        <note>Class = "UILabel"; text = "Mobile Number"; ObjectID = "zSv-Pu-NiU";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Notary/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>0.2</source>
+      </trans-unit>
+      <trans-unit id="NSRemindersUsageDescription">
+        <source>${PRODUCT_NAME} Reminder Usage</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Notary/Localizable.strings" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="05xxxxxxxx">
+        <source>05xxxxxxxx</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Address Here">
+        <source>Address Here</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="All Field Required">
+        <source>All Field Required</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Application will terminate and change its language">
+        <source>Application will terminate and change its language</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Back">
+        <source>Back</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Booking Appointment">
+        <source>Booking Appointment</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cancel Confirmed">
+        <source>Cancel Confirmed</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Confirmation">
+        <source>Confirmation</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to cancel this operation ?">
+        <source>Do you want to cancel this operation ?</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Gorgian">
+        <source>Gorgian</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Hijri">
+        <source>Hijri</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="ID Number Invalid">
+        <source>ID Number Invalid</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="ID Number Must be 10 digits">
+        <source>ID Number Must be 10 digits</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Mobile Number Invalid">
+        <source>Mobile Number Invalid</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Next">
+        <source>Next</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No Available Dates">
+        <source>No Available Dates</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Operation Has Faild">
+        <source>Operation Has Faild</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select">
+        <source>Select</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select Date">
+        <source>Select Date</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select Services">
+        <source>Select Services</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select Time">
+        <source>Select Time</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Service">
+        <source>Service</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Today">
+        <source>Today</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Warning">
+        <source>Warning</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
+        <source>Yesterday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You will recieve a confirmation on">
+        <source>You will recieve a confirmation on</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="about_msg">
+        <source>about_msg</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_0">
+        <source>api_response_result_code_0</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_1">
+        <source>api_response_result_code_1</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_2">
+        <source>api_response_result_code_2</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_3">
+        <source>api_response_result_code_3</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_4">
+        <source>api_response_result_code_4</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_5">
+        <source>api_response_result_code_5</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_6">
+        <source>api_response_result_code_6</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_7">
+        <source>api_response_result_code_7</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_8">
+        <source>api_response_result_code_8</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="api_response_result_code_9">
+        <source>api_response_result_code_9</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

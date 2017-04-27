@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TAppointments" representedClassName="TAppointments" syncable="YES">
+        <attribute name="b_cancelled" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="b_upcoming" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="d_lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d_lng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fk_i_service_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="i_beneficiaries_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pk_i_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_datetime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TServices" representedClassName="TServices" syncable="YES">
+        <attribute name="pk_i_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_name_ar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_name_en" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TUser" representedClassName="TUser" syncable="YES">
+        <attribute name="pk_i_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_access_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_mobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_national_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TUser" positionX="-54" positionY="-45" width="128" height="105"/>
+        <element name="TServices" positionX="-36" positionY="-18" width="128" height="90"/>
+        <element name="TAppointments" positionX="-18" positionY="-45" width="128" height="165"/>
+    </elements>
+</model>
